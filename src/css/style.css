@@ -1,0 +1,87 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: var(--background-color);
+    color: var(--standard-text);
+}
+
+.bg {
+    background: url(../images/bg-desktop.svg) center left no-repeat;
+    background-size: auto 100%;
+}
+
+.bg.bg-dimensions {
+    padding: 55px 70px 0px 70px;
+}
+
+.header img {
+    height: 52px;
+    margin-bottom: 80px;
+}
+
+.main {
+    display: flex;
+}
+
+.main img {
+    max-width: 100%;
+}
+
+.main .description {
+    padding: 40px 0px 0px 75px;
+}
+
+.main .description h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+    font-size: 37px;
+    max-width: 500px;
+}
+
+.main .description p {
+    margin-bottom: 45px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.main .description .btn-register {
+    padding: 15px 60px;
+    color: var(--background-color);
+    background-color: var(--standard-text);
+    border-radius: 40px;
+    font-size: 18px;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.403);
+}
+
+.main .description .btn-register:hover {
+    background-color: var(--active-states);
+    color: var(--standard-text);
+    transition: 0.3s;
+}
+
+.footer .address {
+    display: flex;
+    justify-content: flex-end;
+    padding: 27px 0px 35px;
+}
+
+.footer .address a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: var(--standard-text);
+    margin-left: 20px;
+}
+
+.footer .address a:hover {
+    color: var(--active-states);
+    transition: 0.3s;
+}
+
+.footer .address i {
+    font-size: 18px;
+}
