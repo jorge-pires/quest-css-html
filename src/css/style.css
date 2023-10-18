@@ -2,16 +2,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     background-color: var(--background-color);
-    color: var(--standard-text);
+    color: var(--standard-text);  
 }
 
 .bg {
     background: url(../images/bg-desktop.svg) center left no-repeat;
     background-size: auto 100%;
-}
-
-.bg.bg-dimensions {
     padding: 55px 70px 0px 70px;
+    min-height: 100vh;
 }
 
 .header img {

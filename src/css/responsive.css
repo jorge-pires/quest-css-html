@@ -29,7 +29,7 @@
 }
 
 @media(max-width: 426px) {
-    .bg.bg-dimensions {
+    .bg {
         padding: 30px 36px 0px 36px;
     }
 
